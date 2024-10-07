@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">RentHub</string>
+    <string-array name="location">
+        <item>Tunis</item>
+        <item>Ariana</item>
+        <item>Ben Arous</item>
+        <item>Manouba</item>
+        <item>Nabeul</item>
+        <item>Zaghouan</item>
+        <item>Béja</item>
+        <item>Jendouba</item>
+        <item>Kef</item>
+        <item>Siliana</item>
+        <item>Bizerte</item>
+        <item>Sousse</item>
+        <item>Monastir</item>
+        <item>Mahdia</item>
+        <item>Sfax</item>
+        <item>Kairouan</item>
+        <item>Kasserine</item>
+        <item>Sidi Bouzid</item>
+        <item>Gabès</item>
+        <item>Médenine</item>
+        <item>Tataouine</item>
+        <item>Kebili</item>
+        <item>Tozeur</item>
+        <item>Gafsa</item>
+        <!-- Airports -->
+        <item>Tunis-Carthage International Airport</item>
+        <item>Sfax–Thyna International Airport</item>
+        <item>Djerba–Zarzis International Airport</item>
+        <item>Tozeur–Nefta International Airport</item>
+        <item>Monastir Habib Bourguiba International Airport</item>
+        <item>Monastir Habib Bourguiba International Airport</item>
+        <item>Gafsa–Ksar International Airport</item>
+        <item>Gabès–Matmata International Airport</item>
+        <item>Kairouan–Naftah International Airport</item>
+        <item>Tabarka–Aïn Draham International Airport</item>
+        <item>Enfidha–Hammamet International Airport</item>
+        <item>El Borma Airport</item>
+        <item>Remada Airport</item>
+        <!-- Add more airports as needed -->
+    </string-array>
+    <string name="locationPrompt">Choose Pick up location</string>
+
+</resources>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "46215897391",
+    "firebase_url": "https://renthub-43544-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "renthub-43544",
+    "storage_bucket": "renthub-43544.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46215897391:android:8d8382dc9d8bca909801da",
+        "android_client_info": {
+          "package_name": "com.example.renthub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB6I9rk3xEIDDRnb8R8XNJQODP1nkU8-U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

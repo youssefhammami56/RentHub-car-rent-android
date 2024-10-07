@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+
+    android:layout_marginBottom="20dp"
+    android:padding="10dp"
+
+    android:background="#dda15e"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:id="@+id/imageview"
+        android:layout_marginRight="10dp"
+        android:layout_centerVertical="true"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:layout_toEndOf="@id/imageview"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        tools:text="Name"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/status"
+        android:layout_toEndOf="@id/imageview"
+        android:layout_below="@id/name"
+        android:textColor="@color/black"
+        tools:text="status"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/total"
+        android:layout_toEndOf="@id/imageview"
+        android:layout_below="@id/status"
+        android:textColor="@color/black"
+        tools:text="total"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mapclick"
+        android:layout_toEndOf="@id/imageview"
+        android:layout_below="@id/total"
+        android:textColor="@color/black"
+        tools:text=""/>
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:paddingTop="20dp"
+        android:id="@+id/mapicon"
+        android:layout_toEndOf="@+id/imageview"
+        android:layout_below="@+id/total"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/imageview"
+        android:layout_marginTop="40dp"
+        android:background="#dda15e"/>
+
+
+</RelativeLayout>
